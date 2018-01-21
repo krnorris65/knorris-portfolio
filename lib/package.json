@@ -1,0 +1,19 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "grunt": "^1.0.1",
+    "gruntify-eslint": "^4.0.0"
+  },
+  "devDependencies": {
+    "materialize-css": "^0.100.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kristen Norris",
+  "license": "ISC"
+}
