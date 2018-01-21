@@ -1,0 +1,26 @@
+#sideBar{
+    position: fixed;
+    height: 100%;
+}
+
+#mainSec{
+    position: absolute;
+    right:0;
+    padding: 0;
+}
+
+.mainContent{
+    padding: 2%;
+}
+
+#fullPage{
+    position: relative;
+}
+
+
+.navBar{
+    position: fixed;
+    z-index: 1;
+    width:100%;
+    height: 50px;
+}
