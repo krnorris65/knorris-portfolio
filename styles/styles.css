@@ -1,38 +1,8 @@
-#sideBar{
-    position: fixed;
-    height: 100%;
-    padding:0;
+nav .brand-logo{
+    color: #fff59d;
 }
 
-#mainSec{
-    position: absolute;
-    right:0;
-    padding: 0;
-}
-
-.mainContent{
-    padding: 2%;
-}
-
-#fullPage{
-    position: relative;
-}
-
-.navBar{
-    position: fixed;
-    z-index: 1;
-    width:100%;
-    height: 50px;
-}
-
-.sideBox{
-    top:0;
-    background-color: teal;
-    height: 70%;
-    clip-path: polygon(0 0, 100% 0, 100% 69%, 0% 100%);
-        
-}
-
-.sideBox h1{
-    margin-top: 0;
+#angled{
+    clip-path: polygon(100% 0%, 0% 0%, 102% 100%);
+    width: 30%;
 }
