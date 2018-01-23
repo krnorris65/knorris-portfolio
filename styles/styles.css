@@ -19,3 +19,7 @@ nav .brand-logo{
     width: 150px;
     margin-left: 5px;
 }
+
+.parallax-container {
+    height: 300px;
+}
