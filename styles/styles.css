@@ -7,9 +7,15 @@ nav .brand-logo{
     width: 30%;
 }
 
-.circle{
-    clip-path: circle(50.0% at 50% 50%);
-    background-color: green;
-    width: 100px;
-    height: 100px
+.cornerImage{
+    width: 150px;
+    height: 150px;
+    border: 5px solid teal;
+    background-color: teal;
+    margin-left: 5px;
+}
+
+#flowerCircle{
+    width: 150px;
+    margin-left: 5px;
 }
