@@ -9,6 +9,7 @@
     "gruntify-eslint": "^4.0.0"
   },
   "devDependencies": {
+    "angular-route": "^1.6.8",
     "materialize-css": "^0.100.2"
   },
   "scripts": {

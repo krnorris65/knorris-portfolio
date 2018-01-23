@@ -6,6 +6,7 @@ Setting Up file
 ```
 npm init
 npm install angular --save
+npm install angular-route --save
 npm install gruntify-eslint --save-dev
 npm install grunt --save-dev
 eslint --init

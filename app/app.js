@@ -1,4 +1,4 @@
-// angular.module("LifeReelApp", ["ngRoute"])
+angular.module("KNPortfolio", ["ngRoute"])
 
 // angular.module("LifeReelApp").config(function ($routeProvider) {
 // 	/**
