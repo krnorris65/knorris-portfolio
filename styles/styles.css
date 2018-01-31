@@ -27,3 +27,21 @@ nav .brand-logo{
 .lifereel{
     width: 100%;
 }
+
+body{
+    background-color: grey;
+}
+
+#aboutImg{
+    width: 25%;
+    padding: 10px;
+}
+
+.contactIcon{
+    height: 35px;
+    width: 35px;
+}
+
+.emailIcon{
+    font-size: 35px
+}
