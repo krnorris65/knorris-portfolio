@@ -45,3 +45,8 @@ body{
 .emailIcon{
     font-size: 35px
 }
+
+footer{
+    bottom: 0;
+    height: 50px;
+}
