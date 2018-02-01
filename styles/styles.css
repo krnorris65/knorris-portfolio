@@ -55,5 +55,7 @@ footer{
 footer a, footer a:visited{
     color: black
 }
-
+ .SVG{
+     fill: grey;
+ }
 
