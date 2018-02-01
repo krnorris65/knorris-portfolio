@@ -40,11 +40,9 @@ body{
 .contactIcon{
     height: 35px;
     width: 35px;
+    margin: 5px 20px 0px;
 }
 
-.emailIcon{
-    font-size: 35px
-}
 
 footer{
     position: fixed;
@@ -57,4 +55,5 @@ footer{
 footer a, footer a:visited{
     color: black
 }
+
 

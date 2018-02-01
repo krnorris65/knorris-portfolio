@@ -1,5 +1,5 @@
 angular.module("KNPortfolio").controller("NavCtrl",
-    function ($scope) {
+    function ($scope, $location) {
 
         // gives functionality to collapsed menu 
         $(".button-collapse").sideNav();
