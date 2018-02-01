@@ -22,9 +22,9 @@
 
 <body ng-app="KNPortfolio">
 
-    <div ng-include="'app/NavBar/partials/navigation.html'" class="navbar-fixed"></div>
+    <div ng-include="'app/NavBarFooter/partials/navigation.html'" class="navbar-fixed"></div>
 
-    <div class="parallax-container">
+    <div id="landing" class="section grey">
         <!-- <div class="parallax"><img src="img/background/rBkgdRoses.jpg"></div> -->
     </div>
 
@@ -54,7 +54,7 @@
 
     
     <footer class="teal">        
-        <div ng-include="'app/Contact/partials/contact.html'"></div>
+        <div ng-include="'app/NavBarFooter/partials/footer.html'"></div>
     </footer>
 
 
@@ -69,7 +69,7 @@
     <!-- app scripts -->
     <script src="./app/app.js"></script>
 
-    <script src="./app/NavBar/controllers/NavCtrl.js"></script>
+    <script src="./app/NavBarFooter/controllers/NavCtrl.js"></script>
     <script src="./app/Projects/controllers/ProjectCtrl.js"></script>
 </body>
 
