@@ -1,0 +1,68 @@
+{
+    "tech": [
+		{
+			"name": "Javascript",
+			"image": "../../img/tech/javascript.png"
+		},
+		{
+			"name": "AngularJS",
+			"image": "../../img/tech/angularjs.png"
+		},
+		{
+			"name": "jQuery",
+			"image": "../../img/tech/jquery.png"
+		},
+		{
+			"name": "Git",
+			"image": "../../img/tech/git.png"
+		},
+		{
+			"name": "Github",
+			"image": "../../img/tech/github.png"
+		},
+		{
+			"name": "Grunt",
+			"image": "../../img/tech/grunt.png"
+		},
+		{
+			"name": "HTML5",
+			"image": "../../img/tech/html5.png"
+		},
+		{
+			"name": "CSS3",
+			"image": "../../img/tech/css3.png"
+		},
+		{
+			"name": "Browserify",
+			"image": "../../img/tech/browserify.png"
+		},
+        {
+			"name": "Firebase",
+			"image": "../../img/tech/firebase.png"
+        },
+        {
+			"name": "Materialize",
+			"image": "../../img/tech/materialize.png"
+        },
+        {
+			"name": "NPM",
+			"image": "../../img/tech/npm.png"
+        },
+        {
+			"name": "SQLite3",
+			"image": "../../img/tech/sqlite.png"
+        },
+        {
+			"name": "Visual Studio Code",
+			"image": "../../img/tech/vsc.png"
+		},
+        {
+			"name": "C#",
+			"image": "../../img/tech/csharp.png"
+		},
+        {
+			"name": ".NET",
+			"image": "../../img/tech/net.png"
+		}
+	]
+}

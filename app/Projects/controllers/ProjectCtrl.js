@@ -1,9 +1,9 @@
 angular.module("KNPortfolio").controller("ProjectCtrl",
-function ($scope) {
+    function ($scope) {
 
-    $scope.Project1= "Life Reel"
+        $scope.Project1 = "Life Reel"
 
-    $scope.Project2= "Backend Capstone"
+        $scope.Project2 = "Backend Capstone"
 
-}
+    }
 )
