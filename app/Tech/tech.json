@@ -1,5 +1,13 @@
 {
     "tech": [
+        {
+			"name": "HTML5",
+			"image": "../../img/tech/html5.png"
+		},
+		{
+			"name": "CSS3",
+			"image": "../../img/tech/css3.png"
+		},
 		{
 			"name": "Javascript",
 			"image": "../../img/tech/javascript.png"
@@ -7,6 +15,14 @@
 		{
 			"name": "AngularJS",
 			"image": "../../img/tech/angularjs.png"
+        },
+        {
+			"name": "C#",
+			"image": "../../img/tech/csharp.png"
+		},
+        {
+			"name": ".NET",
+			"image": "../../img/tech/net.png"
 		},
 		{
 			"name": "jQuery",
@@ -19,34 +35,6 @@
 		{
 			"name": "Github",
 			"image": "../../img/tech/github.png"
-		},
-		{
-			"name": "Grunt",
-			"image": "../../img/tech/grunt.png"
-		},
-		{
-			"name": "HTML5",
-			"image": "../../img/tech/html5.png"
-		},
-		{
-			"name": "CSS3",
-			"image": "../../img/tech/css3.png"
-		},
-		{
-			"name": "Browserify",
-			"image": "../../img/tech/browserify.png"
-		},
-        {
-			"name": "Firebase",
-			"image": "../../img/tech/firebase.png"
-        },
-        {
-			"name": "Materialize",
-			"image": "../../img/tech/materialize.png"
-        },
-        {
-			"name": "NPM",
-			"image": "../../img/tech/npm.png"
         },
         {
 			"name": "SQLite3",
@@ -55,14 +43,26 @@
         {
 			"name": "Visual Studio Code",
 			"image": "../../img/tech/vsc.png"
-		},
+        },
         {
-			"name": "C#",
-			"image": "../../img/tech/csharp.png"
-		},
+			"name": "NPM",
+			"image": "../../img/tech/npm.png"
+        },
         {
-			"name": ".NET",
-			"image": "../../img/tech/net.png"
-		}
+			"name": "Firebase",
+			"image": "../../img/tech/firebase.png"
+        },
+        {
+			"name": "Materialize",
+			"image": "../../img/tech/materialize.png"
+        },
+		{
+			"name": "Grunt",
+			"image": "../../img/tech/grunt.png"
+		},
+		{
+			"name": "Browserify",
+			"image": "../../img/tech/browserify.png"
+        }
 	]
 }
