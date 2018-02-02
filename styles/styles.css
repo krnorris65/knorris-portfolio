@@ -55,7 +55,16 @@ footer{
 footer a, footer a:visited{
     color: black
 }
- .SVG{
-     fill: grey;
- }
+
+#landing{
+    height: 90vh;
+    background-image: url("../img/kn/KNturtle1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.mainInfo{
+    margin-left:75%;
+    color: #fff59d;
+}
 
