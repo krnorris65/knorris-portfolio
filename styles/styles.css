@@ -24,7 +24,10 @@ nav .brand-logo{
     height: 300px;
 }
 
-.lifereel{
+.capstoneTitle a{
+    color:black;
+}
+.capstoneImg{
     width: 100%;
 }
 
@@ -49,7 +52,8 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: right;
+    /* max-height: 46px; */
 }
 
 footer a, footer a:visited{
@@ -75,5 +79,15 @@ footer a, footer a:visited{
 }
 .techIcon{
     height: 75px;
-    /* width: 75px; */
+}
+
+.pad{
+    padding-top: 20px;
+}
+
+#copyright{
+    font-size: .9em;
+    padding-right: 5px;
+    margin:-22px 0px 0px;
+    color: lightgrey;    
 }

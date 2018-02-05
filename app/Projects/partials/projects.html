@@ -1,14 +1,23 @@
 <div id="projects" class="section white">
-    <div ng-controller="ProjectCtrl" class="row container">
+    <div ng-controller="ProjectCtrl" class="row container pad">
 
         <h1>Projects</h1>
-        <div class="col s12 m12 l6">
-            <h4>{{Project1}}</h4>
-            <img class="lifereel" src="../../../img/LifeReelApp.png" alt="">
+        <div id="LifeReel" class="col s12 m12 l6">
+            <h4 class="capstoneTitle"><a href={{Link1}} target="_blank">{{Project1}}</a></h4>
+            <a href={{Link1}} target="_blank"><img class="capstoneImg" src={{Image1}}
+                alt={{AltText1}}></a>
+            <p class="capstoneDescription">
+                {{Description1}}
+            </p>
+        </div>
 
-        </div>
-        <div class="col s12 m12 l6">
-            <h4>{{Project2}}</h4>
-        </div>
+        <!-- <div id="Capstone2" class="col s12 m12 l6">
+            <h4 class="capstoneTitle"><a href={{Link2}}>{{Project2}}</a></h4>
+            <a href={{Link2}} target="_blank"><img class="capstoneImg" src={{Image2}} alt={{AltText2}}></a>
+            <p class="capstoneDescription">
+                {{Description2}}
+            </p>
+        </div> -->
+
     </div>
 </div>
