@@ -91,3 +91,26 @@ footer a, footer a:visited{
     margin:-22px 0px 0px;
     color: lightgrey;    
 }
+
+.project {
+    position: relative;
+}
+
+.capstoneDescription{
+    display: none;
+    background-color: grey;
+    width:100%;
+}
+.project:hover .capstoneDescription {
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project:hover .capstoneImg{
+    opacity: 0.7
+}
