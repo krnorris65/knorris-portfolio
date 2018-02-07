@@ -24,12 +24,6 @@ nav .brand-logo{
     height: 300px;
 }
 
-.capstoneTitle a{
-    color:black;
-}
-.capstoneImg{
-    width: 100%;
-}
 
 body{
     background-color: grey;
@@ -53,6 +47,7 @@ footer{
     bottom: 0;
     width: 100%;
     text-align: right;
+    z-index: 5;
     /* max-height: 46px; */
 }
 
@@ -92,25 +87,26 @@ footer a, footer a:visited{
     color: lightgrey;    
 }
 
-.project {
-    position: relative;
+.projectTitle a{
+    color:black;
+}
+.projectImg{
+    width: 100%;
 }
 
-.capstoneDescription{
-    display: none;
-    background-color: grey;
-    width:100%;
+.projectGitHub{
+    height:40px;
 }
-.project:hover .capstoneDescription {
-    font-weight: bold;
+
+.projectWebsite{
+    color: black;
+    font-size: 40px;
+}
+
+.projectDetails{
     text-align: center;
-    display: block;
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
-.project:hover .capstoneImg{
-    opacity: 0.7
+.projectWebsite, .projectGitHub{
+    margin: 10px 30px 0px 30px;
 }
