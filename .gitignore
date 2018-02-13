@@ -1,6 +1,12 @@
-node_modules
 .DS_Store
 package-lock.json
-!node_modules/angular
-!node_modules/angular-route
-!node_modules/materialize-css
+
+!lib/
+
+lib/*
+!lib/node_modules/
+
+lib/node_modules/*
+!lib/node_modules/angular/
+!lib/node_modules/angular-route/
+!lib/node_modules/materialize-css/
