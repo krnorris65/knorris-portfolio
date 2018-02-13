@@ -2,67 +2,67 @@
     "tech": [
         {
 			"name": "HTML5",
-			"image": "https://github.com/krnorris65/knorris-portfolio/blob/master/img/tech/html5.png"
+			"image": "img/tech/html5.png"
 		},
 		{
 			"name": "CSS3",
-			"image": "../../img/tech/css3.png"
+			"image": "img/tech/css3.png"
 		},
 		{
 			"name": "Javascript",
-			"image": "../../img/tech/javascript.png"
+			"image": "img/tech/javascript.png"
 		},
 		{
 			"name": "AngularJS",
-			"image": "../../img/tech/angularjs.png"
+			"image": "img/tech/angularjs.png"
         },
         {
 			"name": "C#",
-			"image": "../../img/tech/csharp.png"
+			"image": "img/tech/csharp.png"
 		},
         {
 			"name": ".NET",
-			"image": "../../img/tech/net.png"
+			"image": "img/tech/net.png"
 		},
 		{
 			"name": "jQuery",
-			"image": "../../img/tech/jquery.png"
+			"image": "img/tech/jquery.png"
 		},
 		{
 			"name": "Git",
-			"image": "../../img/tech/git.png"
+			"image": "img/tech/git.png"
 		},
 		{
 			"name": "Github",
-			"image": "../../img/tech/github.png"
+			"image": "img/tech/github.png"
         },
         {
 			"name": "SQLite3",
-			"image": "../../img/tech/sqlite.png"
+			"image": "img/tech/sqlite.png"
         },
         {
 			"name": "Visual Studio Code",
-			"image": "../../img/tech/vsc.png"
+			"image": "img/tech/vsc.png"
         },
         {
 			"name": "NPM",
-			"image": "../../img/tech/npm.png"
+			"image": "img/tech/npm.png"
         },
         {
 			"name": "Firebase",
-			"image": "../../img/tech/firebase.png"
+			"image": "img/tech/firebase.png"
         },
         {
 			"name": "Materialize",
-			"image": "../../img/tech/materialize.png"
+			"image": "img/tech/materialize.png"
         },
 		{
 			"name": "Grunt",
-			"image": "../../img/tech/grunt.png"
+			"image": "img/tech/grunt.png"
 		},
 		{
 			"name": "Browserify",
-			"image": "../../img/tech/browserify.png"
+			"image": "img/tech/browserify.png"
         }
 	]
 }
