@@ -2,7 +2,7 @@
     "tech": [
         {
 			"name": "HTML5",
-			"image": "../../img/tech/html5.png"
+			"image": "https://github.com/krnorris65/knorris-portfolio/blob/master/img/tech/html5.png"
 		},
 		{
 			"name": "CSS3",
