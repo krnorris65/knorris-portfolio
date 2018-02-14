@@ -2,6 +2,18 @@ nav .brand-logo{
     color: #fff59d;
 }
 
+#mobileNav {
+    margin-top: 42px;
+    line-height: 25px;
+}
+
+.smallNav{
+    color: lightgrey;
+    margin: 0px 20px;
+}
+
+
+
 .angled{
     clip-path: polygon(100% 0%, 0% 0%, 102% 100%);
     width: 30%;

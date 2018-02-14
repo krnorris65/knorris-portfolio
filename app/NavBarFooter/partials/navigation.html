@@ -1,18 +1,23 @@
-    <nav ng-controller="NavCtrl">
-        <div class="nav-wrapper teal">
-            <img id="flowerCircle" src="img/flowerCircle.png" alt="yellow rose" class="hide-on-med-and-down">
-            <a id="KNheader" href="#!" class="brand-logo">Kristen Norris</a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down grey">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#tech">Technologies</a></li>
-                </ul>
-                <div class="angled right hide-on-med-and-down grey">.</div>
-            <ul class="side-nav" id="mobile-demo">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#tech">Technologies</a></li>
-            </ul>
-        </div>
-    </nav>
+<nav ng-controller="NavCtrl" class="nav-wrapper teal">
+    <div>
+        <img id="flowerCircle" src="img/flowerCircle.png" alt="yellow rose" class="hide-on-med-and-down">
+        <a id="KNheader" href="#!" class="brand-logo">Kristen Norris</a>
+        <ul class="right hide-on-med-and-down grey">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#tech">Technologies</a>
+            </li>
+        </ul>
+        <div class="angled right hide-on-med-and-down grey">.</div>
+    </div>
+    <div id="mobileNav" class="hide-on-large-only center-align teal">
+            <a class="smallNav" href="#about">About</a>
+            <a class="smallNav" href="#projects">Projects</a>
+            <a class="smallNav" href="#tech">Technologies</a>
+    </div>
+</nav>
