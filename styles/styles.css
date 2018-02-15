@@ -2,19 +2,10 @@ nav .brand-logo{
     color: #fff59d;
 }
 
-/* #mobileNav {
-    margin-top: 42px;
-    line-height: 25px;
-}
-
-.smallNav{
+i.icon-grey{
     color: lightgrey;
-    margin: 0px 20px;
-} */
-
-/* #mobileNav > ul{
-    display: initial;
-} */
+    margin-right: 5px;
+}
 
 .angled{
     clip-path: polygon(100% 0%, 0% 0%, 102% 100%);
@@ -94,11 +85,14 @@ footer a, footer a:visited{
     padding-top: 20px;
 }
 
-#copyright{
+#copyright, #copyrightMobile{
     font-size: .9em;
     padding-right: 5px;
-    margin:-22px 0px 0px;
     color: lightgrey;    
+}
+#copyright
+{
+    margin:-22px 0px 0px;
 }
 
 .projectTitle a{
