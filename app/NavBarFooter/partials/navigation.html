@@ -1,7 +1,7 @@
-<nav ng-controller="NavCtrl" class="nav-wrapper teal">
+<nav ng-controller="NavCtrl" class="nav-wrapper hide-on-med-and-down teal">
     <div>
         <img id="flowerCircle" src="img/flowerCircle.png" alt="yellow rose" class="hide-on-med-and-down">
-        <a id="KNheader" href="#!" class="brand-logo">Kristen Norris</a>
+        <a id="KNheader" href="#!" class="hide-on-med-and-down brand-logo">Kristen Norris</a>
         <ul class="right hide-on-med-and-down grey">
             <li>
                 <a href="#about">About</a>
@@ -15,9 +15,41 @@
         </ul>
         <div class="angled right hide-on-med-and-down grey">.</div>
     </div>
-    <div id="mobileNav" class="hide-on-large-only center-align teal">
-            <a class="smallNav" href="#about">About</a>
-            <a class="smallNav" href="#projects">Projects</a>
-            <a class="smallNav" href="#tech">Technologies</a>
-    </div>
+
 </nav>
+
+<!-- <nav ng-controller="NavCtrl" class="nav-wrapper hide-on-large-only teal">
+    <div id="mobileNav" class="nav-wrapper">
+        <a id="KNheader" href="#!" class="left brand-logo">Kristen Norris</a>
+        <ul id="nav-mobile" class="right">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#tech">Tech</a>
+            </li>
+        </ul>
+    </div>
+</nav> -->
+
+
+
+<nav ng-controller="NavCtrl" class="nav-wrapper hide-on-large-only teal">
+        <div id="mobileNav" class="nav-wrapper">
+            <a id="KNheader" href="#!" class="left brand-logo">Kristen Norris</a>
+            <ul id="nav-mobile" class="right">
+                <li>
+                    <a href="#about"><i class="material-icons">person</i></a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#tech">Tech</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
