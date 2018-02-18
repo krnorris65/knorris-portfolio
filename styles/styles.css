@@ -28,7 +28,7 @@ body{
     padding-left: 50%;
     padding-top: 25%;
 } */
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px){
     h1{
         font-size: 3.5rem;
     }
@@ -36,28 +36,19 @@ body{
     h2{
         font-size: 2.5rem;
     }
-    #landing{
-        height: 30vh;
+    .parallax-container, #landing {
+        height: 195px;
     }
-}
-
-@media only screen and (min-width: 321px) and (max-width: 375px) {
-    h1{
-        font-size: 3.5rem;
-    }
-
-    h2{
-        font-size: 2.5rem;
-    }
-    #landing{
-        height: 35vh;
-    }
-
 }
 
 @media only screen and (min-width: 376px) and (max-width: 425px) {
+    .parallax-container, #landing{
+        height: 235px;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
     #landing{
-        height: 40vh;
+        height: 470px;
     }
 }
 
