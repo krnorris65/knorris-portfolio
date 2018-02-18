@@ -1,0 +1,14 @@
+#techContainer{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.techIcon{
+    height: 75px;
+}
+
+@media only screen and (max-width: 375px) {
+    .techIcon{
+        height: 60px;
+    }
+}

@@ -1,63 +1,19 @@
-nav .brand-logo{
-    color: #fff59d;
-}
-
-i.icon-grey{
-    color: lightgrey;
-    margin-right: 5px;
-}
-
-.angled{
-    clip-path: polygon(100% 0%, 0% 0%, 102% 100%);
-    width: 30%;
-}
-
-.cornerImage{
-    width: 150px;
-    height: 150px;
-    border: 5px solid teal;
-    background-color: teal;
-    margin-left: 5px;
-}
-
-#flowerCircle{
-    width: 150px;
-    margin-left: 5px;
-}
+html {
+    font-family: 'Averia Serif Libre', 'Times New Roman', serif;
+  }
 
 .parallax-container {
     height: 300px;
 }
 
-
 body{
     background-color: grey;
 }
 
+
 #aboutImg{
     width: 25%;
     padding: 10px;
-}
-
-.contactIcon{
-    height: 35px;
-    width: 35px;
-    margin: 5px 20px 0px;
-}
-
-
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: right;
-    z-index: 5;
-    /* max-height: 46px; */
-}
-
-footer a, footer a:visited{
-    color: black
 }
 
 #landing{
@@ -65,56 +21,19 @@ footer a, footer a:visited{
     background-image: url("../img/kn/KNturtle1.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-}
-
-.mainInfo{
-    margin-left:70%;
     color: #fff59d;
 }
 
-#techContainer{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-.techIcon{
-    height: 75px;
+#landing > h2{
+    /* margin-left: 50%; */
 }
 
-.pad{
-    padding-top: 20px;
+#landing >img {
+    /* width: 100%; */
 }
 
-#copyright, #copyrightMobile{
-    font-size: .9em;
-    padding-right: 5px;
-    color: lightgrey;    
-}
-#copyright
-{
-    margin:-22px 0px 0px;
-}
-
-.projectTitle a{
-    color:black;
-}
-.projectImg{
-    width: 100%;
-}
-
-.projectGitHub{
-    height:40px;
-}
-
-.projectWebsite{
-    color: black;
-    font-size: 40px;
-}
-
-.projectDetails{
-    text-align: center;
-}
-
-.projectWebsite, .projectGitHub{
-    margin: 10px 30px 0px 30px;
+@media only screen and (max-width: 375px) {
+    h1{
+        font-size: 3.5rem;
+    }
 }

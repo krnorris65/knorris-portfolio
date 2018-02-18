@@ -1,0 +1,30 @@
+nav .brand-logo{
+    color: #fff59d;
+}
+
+i.icon-grey{
+    color: lightgrey;
+    margin-right: 5px;
+}
+
+.angled{
+    clip-path: polygon(100% 0%, 0% 0%, 102% 100%);
+    width: 30%;
+}
+
+.cornerImage{
+    width: 150px;
+    height: 150px;
+    border: 5px solid teal;
+    background-color: teal;
+    margin-left: 5px;
+}
+
+#flowerCircle{
+    width: 150px;
+    margin-left: 5px;
+}
+
+
+
+

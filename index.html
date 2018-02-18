@@ -9,12 +9,17 @@
 
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="./lib/node_modules/materialize-css/dist/css/materialize.min.css" media="screen,projection"
     />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/tech.css">
+    <link rel="stylesheet" href="styles/footer.css">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,13 +30,18 @@
     <div ng-include="'./app/NavBarFooter/partials/navigation.html'" class="navbar-fixed"></div>
 
 
-    <div ng-include="'./app/Landing/partials/landing.html'" id="landing" class="valign-wrapper"></div>
+    <div id="landing" class="valign-wrapper">
+        <!-- <img src="img/kn/KNturtle1.jpg" alt="sea turtle"> -->
+        <h2>Software Developer</h2>
+    </div>
 
 
     <div ng-include="'./app/AboutMe/partials/about.html'"></div>
 
     <div class="parallax-container">
-        <div class="parallax"><img src="img/background/lBkgdRoses.jpg"></div>
+        <div class="parallax">
+            <img src="img/background/lBkgdRoses.jpg">
+        </div>
     </div>
 
     <div ng-include="'./app/Projects/partials/projects.html'"></div>
@@ -43,7 +53,9 @@
     <div ng-include="'app/Tech/partials/tech.html'"></div>
 
     <div class="parallax-container">
-        <div class="parallax"><img src="img/background/rBkgdRoses.jpg"></div>
+        <div class="parallax">
+            <img src="img/background/rBkgdRoses.jpg">
+        </div>
     </div>
 
 

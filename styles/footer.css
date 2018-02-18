@@ -1,0 +1,40 @@
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    z-index: 5;
+}
+
+footer a, footer a:visited{
+    color: black
+}
+
+.copyright{
+    padding-right: 5px;
+    color: lightgrey;    
+}
+.copyright
+{
+    font-size: .9em;
+    margin:-22px 0px 0px;
+}
+
+
+.contactIcon{
+    height: 35px;
+    width: 35px;
+    margin: 5px 20px 0px;
+}
+
+@media only screen and (max-width: 425px) {
+    .copyright{
+        font-size: .8em;
+        margin: 28px 0px 0px;
+    }
+    .contactIcon{
+        margin: 5px 9px 0px;
+    }
+
+}
