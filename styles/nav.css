@@ -8,6 +8,7 @@ i.icon-grey{
 }
 
 .angled{
+    -webkit-clip-path: polygon(100% 0%, 0% 0%, 102% 100%);
     clip-path: polygon(100% 0%, 0% 0%, 102% 100%);
     width: 30%;
 }
