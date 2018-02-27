@@ -13,7 +13,9 @@ body{
 
 #aboutImg{
     width: 25%;
-    padding: 10px;
+    margin: 0px 15px 15px 0px;
+    box-shadow: 2px 2px 15px #008080;
+    border-radius: 10px;
 }
 
 #landing{
