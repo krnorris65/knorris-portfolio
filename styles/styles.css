@@ -11,11 +11,23 @@ body{
 }
 
 
-#aboutImg{
+.aboutImg{
     width: 25%;
     margin: 0px 15px 15px 0px;
     box-shadow: 2px 2px 15px #008080;
     border-radius: 10px;
+}
+
+#funImg {
+    display: none;
+}
+
+#aboutImg:hover #proImg {
+    display: none;
+}
+
+#aboutImg:hover #funImg{
+    display: inherit;
 }
 
 #landing{
