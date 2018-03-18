@@ -25,6 +25,10 @@
 			"image": "img/tech/net.png"
 		},
 		{
+			"name": "ASP.NET MVC",
+			"image": "img/tech/aspnetmvc.png"
+        },
+		{
 			"name": "jQuery",
 			"image": "img/tech/jquery.png"
 		},
@@ -35,6 +39,10 @@
 		{
 			"name": "Github",
 			"image": "img/tech/github.png"
+		},
+		{
+			"name": "SQL Server",
+			"image": "img/tech/sqlserver.png"
         },
         {
 			"name": "SQLite3",
@@ -43,6 +51,10 @@
         {
 			"name": "Visual Studio Code",
 			"image": "img/tech/vsc.png"
+		},
+		{
+			"name": "Visual Studio",
+			"image": "img/tech/visualstudio.png"
         },
         {
 			"name": "NPM",
@@ -55,6 +67,10 @@
         {
 			"name": "Materialize",
 			"image": "img/tech/materialize.png"
+		},
+		{
+			"name": "Bootstrap",
+			"image": "img/tech/bootstrap.png"
         },
 		{
 			"name": "Grunt",
