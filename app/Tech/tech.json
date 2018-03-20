@@ -26,7 +26,7 @@
 		},
 		{
 			"name": "ASP.NET MVC",
-			"image": "img/tech/aspnetmvc.png"
+			"image": "img/tech/aspnetMVC.png"
         },
 		{
 			"name": "jQuery",
