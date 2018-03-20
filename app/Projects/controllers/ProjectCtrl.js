@@ -13,7 +13,7 @@ angular.module("KNPortfolio").controller("ProjectCtrl",
         $scope.GitHub2 = "https://github.com/krnorris65/pup-pals"
         $scope.Image2 = "img/PupPals.png" 
         $scope.AltText2 = "Pup Pals Backend Capstone"
-        $scope.Description2 = "PupPals is a web application that allows users to track information about the houses they encounter while walking their pet. PupPals was built using ASP.NET MVC and connects to a SQLite database for deployment through DigitalOcean. This application also utilizes the Google Maps API to display markers on a map for the houses a user tracks."
+        $scope.Description2 = "PupPals is a web application that allows users to track information about the houses they encounter while walking their pet. PupPals was built using ASP.NET MVC and connects to a SQLite database. This application utilizes the Google Maps Javascript API, Google Maps Geocoding API and Google Places API Web Service to create a visual representation of the information a user tracks and allows the user to search the map."
 
         // $scope.Project2 = "Backend Capstone"
 
