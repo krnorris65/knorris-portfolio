@@ -9,7 +9,7 @@ angular.module("KNPortfolio").controller("ProjectCtrl",
         $scope.Description1 = "Web application to track major life events as they happen. Life Reel makes it easy for users to look back and remember the important things that happened throughout the year as well as interact with other users on the application. Created with AngularJS, HTML and CSS, Life Reel is a complete CRUD application that uses Firebase Authentication and Realtime Database."
 
         $scope.Project2 = "PupPals"
-        $scope.Link2 = "https://github.com/krnorris65/pup-pals"
+        $scope.Link2 = "http://pup-pals.kristen-norris.com"
         $scope.GitHub2 = "https://github.com/krnorris65/pup-pals"
         $scope.Image2 = "img/PupPals.png" 
         $scope.AltText2 = "Pup Pals Backend Capstone"
