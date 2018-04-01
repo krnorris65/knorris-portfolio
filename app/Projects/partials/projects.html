@@ -4,37 +4,23 @@
         <h1>Projects</h1>
 
         <div class="row">
-            <div class="col s12 m12 l6">
-                <h4 class="projectTitle"><a href={{Link1}} target="_blank">{{Project1}}</a></h4>
+            <div class="col s12 m12 l6" ng-repeat="p in ProjectsArray">
+                <h4 class="projectTitle"><a href={{p.Link}} target="_blank">{{p.Name}}</a></h4>
                 <div class="card">
                     <div class="card-image">
-                        <a href={{Link1}} target="_blank"><img src={{Image1}} alt={{AltText1}}></a>
-                        <a class="btn-floating halfway-fab waves-effect waves-light teal" ng-click="projectDetails1 = !projectDetails1"><i class="material-icons">expand_more</i></a>
+                        <!-- if the project has a deployed link -->
+                        <a ng-if="p.Link != undefined" href={{p.Link}} target="_blank"><img src={{p.Image}} alt={{p.AltText}}></a>
+                        <!-- if the project doesn't have a deployed link -->
+                        <a ng-if="p.Link == undefined" href={{p.GitHub}} target="_blank"><img src={{p.Image}} alt={{p.AltText}}></a>
+                        <a class="btn-floating halfway-fab waves-effect waves-light teal" ng-click="projectDetails = !projectDetails"><i class="material-icons">expand_more</i></a>
                     </div>
-                    <div ng-show="projectDetails1" class="card-content projectDetails1">
-                        <p>{{Description1}}</p>
-                        <a href={{Link1}} target="_blank">
+                    <div ng-show="projectDetails" class="card-content projectDetails">
+                        <p>{{p.Description}}</p>
+                        <!-- don't show icon if there is no deployed link -->
+                        <a ng-if="p.Link != undefined" href={{p.Link}} target="_blank">
                             <i class="material-icons projectWebsite">web</i>
                         </a>
-                        <a href={{GitHub1}} target="_blank">
-                            <img class="projectGitHub" src="img/tech/github.png" alt="github">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="col s12 m12 l6">
-                <h4 class="projectTitle"><a href={{Link2}} target="_blank">{{Project2}}</a></h4>
-                <div class="card">
-                    <div class="card-image">
-                        <a href={{Link2}} target="_blank"><img src={{Image2}} alt={{AltText2}}></a>
-                        <a class="btn-floating halfway-fab waves-effect waves-light teal" ng-click="projectDetails2 = !projectDetails2"><i class="material-icons">expand_more</i></a>
-                    </div>
-                    <div ng-show="projectDetails2" class="card-content projectDetails2">
-                        <p>{{Description2}}</p>
-                        <a href={{Link2}} target="_blank">
-                            <i class="material-icons projectWebsite">web</i>
-                        </a>
-                        <a href={{GitHub2}} target="_blank">
+                        <a href={{p.GitHub}} target="_blank">
                             <img class="projectGitHub" src="img/tech/github.png" alt="github">
                         </a>
                     </div>
