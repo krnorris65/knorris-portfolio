@@ -24,3 +24,7 @@
 .projectWebsite, .projectGitHub{
     margin: 10px 30px 0px 30px;
 }
+
+#projects .col{
+    padding: .75rem;
+}

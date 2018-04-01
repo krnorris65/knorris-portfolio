@@ -23,7 +23,6 @@ angular.module("KNPortfolio").controller("ProjectCtrl",
 
         Project3 = {
             Name: "Bangazon API",
-            // Link: "https://github.com/Remarkable-Donkeys/bangazon",
             GitHub: "https://github.com/Remarkable-Donkeys/bangazon",
             Image: "img/projects/bangazonAPI.png",
             AltText: "Bangazon API Swagger",
@@ -38,8 +37,6 @@ angular.module("KNPortfolio").controller("ProjectCtrl",
             AltText: "Cohort 22 Class Website",
             Description: "This website was built to feature the students of Nashville Software School Cohort 22. It was built using AngularJS, HTML, CSS and Bootstrap and primary contributors to the site were John Dulaney, Greg Lawrence, Garrett Ward and myself. The primary features that I worked on were collecting/updating student data, styling and collecting tech icons."
         }
-        console.log(Project3)
-        console.log(Project3.Link)
 
         $scope.ProjectsArray.push(Project1, Project2, Project3, Project4)
 
