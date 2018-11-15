@@ -14,7 +14,6 @@ angular.module("KNPortfolio").controller("ProjectCtrl",
 
         Project2 = {
             Name: "PupPals",
-            Link: "http://pup-pals.kristen-norris.com",
             GitHub: "https://github.com/krnorris65/pup-pals",
             Image: "img/projects/PupPals.png", 
             AltText: "Pup Pals Backend Capstone",
