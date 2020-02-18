@@ -11,7 +11,11 @@
 		{
 			"name": "Javascript",
 			"image": "javascript.png"
-		},
+        },
+        {
+            "name": "ReactJS",
+			"image": "react.png"
+        },
         {
 			"name": "C#",
 			"image": "csharp.png"
@@ -59,6 +63,14 @@
         {
 			"name": "Materialize",
 			"image": "materialize.png"
-		}
+        },
+        {
+			"name": "Bootstrap",
+			"image": "bootstrap.png"
+        },
+        {
+            "name": "AngularJS",
+			"image": "angularjs.png"
+        }
 	]
 }
