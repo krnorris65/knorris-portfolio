@@ -2,83 +2,63 @@
     "tech": [
         {
 			"name": "HTML5",
-			"image": "img/tech/html5.png"
+			"image": "html5.png"
 		},
 		{
 			"name": "CSS3",
-			"image": "img/tech/css3.png"
+			"image": "css3.png"
 		},
 		{
 			"name": "Javascript",
-			"image": "img/tech/javascript.png"
+			"image": "javascript.png"
 		},
-		{
-			"name": "AngularJS",
-			"image": "img/tech/angularjs.png"
-        },
         {
 			"name": "C#",
-			"image": "img/tech/csharp.png"
+			"image": "csharp.png"
 		},
         {
 			"name": ".NET",
-			"image": "img/tech/net.png"
+			"image": "net.png"
 		},
 		{
 			"name": "ASP.NET MVC",
-			"image": "img/tech/aspnetMVC.png"
+			"image": "aspnetMVC.png"
         },
 		{
-			"name": "jQuery",
-			"image": "img/tech/jquery.png"
-		},
-		{
 			"name": "Git",
-			"image": "img/tech/git.png"
+			"image": "git.png"
 		},
 		{
 			"name": "Github",
-			"image": "img/tech/github.png"
+			"image": "github.png"
 		},
 		{
 			"name": "SQL Server",
-			"image": "img/tech/sqlserver.png"
+			"image": "sqlserver.png"
         },
         {
 			"name": "SQLite3",
-			"image": "img/tech/sqlite.png"
+			"image": "sqlite.png"
         },
         {
 			"name": "Visual Studio Code",
-			"image": "img/tech/vsc.png"
+			"image": "vsc.png"
 		},
 		{
 			"name": "Visual Studio",
-			"image": "img/tech/visualstudio.png"
+			"image": "visualstudio.png"
         },
         {
 			"name": "NPM",
-			"image": "img/tech/npm.png"
+			"image": "npm.png"
         },
         {
 			"name": "Firebase",
-			"image": "img/tech/firebase.png"
+			"image": "firebase.png"
         },
         {
 			"name": "Materialize",
-			"image": "img/tech/materialize.png"
-		},
-		{
-			"name": "Bootstrap",
-			"image": "img/tech/bootstrap.png"
-        },
-		{
-			"name": "Grunt",
-			"image": "img/tech/grunt.png"
-		},
-		{
-			"name": "Browserify",
-			"image": "img/tech/browserify.png"
-        }
+			"image": "materialize.png"
+		}
 	]
 }
