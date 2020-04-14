@@ -29,6 +29,10 @@
 			"image": "aspnetMVC.png"
         },
 		{
+			"name": "Python",
+			"image": "python.png"
+        },
+		{
 			"name": "Git",
 			"image": "git.png"
 		},
