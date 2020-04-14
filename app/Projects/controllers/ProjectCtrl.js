@@ -21,6 +21,14 @@ angular.module("KNPortfolio").controller("ProjectCtrl",
         }
 
         Project3 = {
+            Name: "Stitch It",
+            GitHub: "https://github.com/krnorris65/stitch-it-app",
+            Image: "img/projects/StitchIt.png",
+            AltText: "Stitch It Side Project",
+            Description: "Web application that allows users to keep track of their own cross stitch projects as well as follow other users and see their cross stitch projects. Created with React Hooks, React Context API, Cloudinary and utilizing JSON-server for storing data"
+        }
+
+        Project4 = {
             Name: "Bangazon API",
             GitHub: "https://github.com/Remarkable-Donkeys/bangazon",
             Image: "img/projects/bangazonAPI.png",
@@ -28,7 +36,7 @@ angular.module("KNPortfolio").controller("ProjectCtrl",
             Description: "An ASP.NET MVC Web API to perform all CRUD operations for Bangazon, Inc., an NSS subsidiary company that employs students for C# project work. This application was created by Sean Williams, Tyler Bowman, Kimberly Bird and myself and is set up to build employees, training programs, customers, products, and other necessary features to the functionality of the company. The primary features that I worked on were Training Programs, Payment Types and implementing CORS."
         }
 
-        Project4 = {
+        Project5 = {
             Name: "Cohort 22 Class Website",
             Link: "https://nss-day-cohort-22.github.io/Class-Website/",
             GitHub: "https://github.com/nss-day-cohort-22/Class-Website",
@@ -37,7 +45,7 @@ angular.module("KNPortfolio").controller("ProjectCtrl",
             Description: "This website was built to feature the students of Nashville Software School Cohort 22. It was built using AngularJS, HTML, CSS and Bootstrap and primary contributors to the site were John Dulaney, Greg Lawrence, Garrett Ward and myself. The primary features that I worked on were collecting/updating student data, styling and collecting tech icons."
         }
 
-        $scope.ProjectsArray.push(Project1, Project2, Project3, Project4)
+        $scope.ProjectsArray.push(Project1, Project2, Project3, Project4, Project5)
 
     }
 )
